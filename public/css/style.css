@@ -1,0 +1,103 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f8ff;
+  color: #003366;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #00509e;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 80, 158, 0.1);
+}
+
+form input,
+form button {
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #b3d4fc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form input:focus {
+  border-color: #3399ff;
+  outline: none;
+}
+
+form button {
+  background-color: #00509e;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background-color: #003f7d;
+}
+
+#taskList {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+#taskList li {
+  background-color: #ffffff;
+  border: 1px solid #d0e7ff;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#taskList li span {
+  flex-grow: 1;
+}
+
+#taskList button {
+  margin-left: 8px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: #3399ff;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+#taskList button:hover {
+  background-color: #2678cc;
+}
+
+#enviar-alertas {
+  display: block;
+  margin: 30px auto;
+  background-color: #0077cc;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#enviar-alertas:hover {
+  background-color: #005fa3;
+}
